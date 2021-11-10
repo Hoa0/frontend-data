@@ -2,16 +2,14 @@
 *, *::after, *::before {
     box-sizing:border-box;
   }
-  
-  /**************************************************/
-  /*-------------GENERAL style ELEMENTS-------------*/
-  /* HIDE ELEMENTS*/
-  .hide-elements {
-      clip: rect(0, 0, 0, 0);
-      clip-path: inset(50%);
-      height: 1px;
-      overflow: hidden;
-      position: absolute;
-      white-space: nowrap;
-      width: 1px;
+
+  rect {
+    fill: steelblue;
+    fill-opacity: 0.8;
+  }
+  rect:hover {
+    fill-opacity: 1;
+  }
+  .axis {
+    font-size: smaller;
   }
