@@ -88,3 +88,16 @@ function update(new_data) {
   
     rect.select('title').text((d) => d.location.city);
   }
+
+  const body = d3.select('body')
+body.append('div').attr('id','thuan')
+const elem = d3.select('#thuan')
+elem.append('svg').append('g').selectAll('rect').data(data).join(
+  (enter) => {
+    const r = enter.append('rect')
+    r.append('title')
+    return r
+  },
+  (update) => update,
+  (exit) => exit.remove()
+)
