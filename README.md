@@ -17,7 +17,10 @@ Vanuit de externe fruit API haal ik fruit nutritions gegevens op en laat het ver
 - Data visueel laten tonen
 - Data visueel interactie met enter, update en exit principes
 
-## Installaties
+## proces :notebook_with_decorative_cover:
+Bekijk mijn [Wiki](https://github.com/Hoa0/frontend-data/wiki)
+
+## Installaties :wrench:
 Voor het ophalen van deze repo in je terminal:
 ```commandline
 git clone https://github.com/Hoa0/frontend-data.git
